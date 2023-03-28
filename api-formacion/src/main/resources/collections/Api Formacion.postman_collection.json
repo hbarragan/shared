@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "74fe18ee-9212-4b81-ba7d-4f8b1aa46ed8",
+		"name": "Api Formacion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24292638"
+	},
+	"item": [
+		{
+			"name": "get all marca by filters",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8001/marca/6",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"marca",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
